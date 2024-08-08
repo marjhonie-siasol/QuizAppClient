@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useFetchQestion } from '../hooks/FetchQuestion'
 import { updateResult } from '../hooks/setResult'
 
-
 export default function Questions({ onChecked }) {
 
     const [checked, setChecked] = useState(undefined)
