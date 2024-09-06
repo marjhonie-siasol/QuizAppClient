@@ -2,7 +2,6 @@ import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 import axios from 'axios'
 
-
 export function attempts_Number(result){
     return result.filter(r => r !== undefined).length;
 }
